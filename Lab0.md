@@ -1,0 +1,14 @@
+# Bài thực hành Lab0
+**Ví dụ: Hệ thống quản lý sinh viên:**
+
+- Biểu đồ UseCase cho hệ thống quản lý sinh viên:
+
+![Diagram](https://www.planttext.com/api/plantuml/png/T94xRi9048RxESLeUue05KK4IaEBKAIqg_KAMzY3y8xJH5GK50Wf707eqYOLLfHYkOXFa2kmDewolEh_-n-Q-Sr_kePbobaI0qZ5anJ5CA8GNoFxGGAbmI5dWIR-KmTPiTyHSbhaIu_g1Kb40AbMB6aKQnJz8byWXqM-fX5EJwxOVgFnujy0CJDQIUCCX_V3tA5Znun3-odHULUgIdz-Ul395vsuPFlbQ8u8bTqWXNPBDTlqsS7jvWfitG6lwzim0wWlWOt6Oxa8E_vcSI4tI_byg83gIZNGAe7_qdEnVIb2LrDGVka8003__mC0)
+
+- Biểu đồ Class cho hệ thống quản lý sinh viên:
+
+![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK9mPbv6M6Pgda8rbm8Gw2e4bnHbvgKhPEI7fEQX2kKcmXIZYkVa5u0551JAyZDJ558IyzAzAxqpyXCzyfCreBH2DeJMH5PPaPeRaf6VbnwIcQUXoLNB1NKIJ0kQYqfIyw0owCv25SxCAr4epWUQwPoHYMnRRZxCJKXs1POcvlbKOh4A8e5k4v8erDH2i0WiO3JWmLaCPMXYAiOPD41NmVKh6IefwEhQAIXfAS43n4f1wSZ48yr0bsGVtgl41NKxiaguTg3ImjA7knRdAUJWK8faAB9AXzIy553g00000F__0m00)
+
+- Biểu đồ tuần tự cho hệ thống quản lý sinh viên:
+
+![Diagram](https://www.planttext.com/api/plantuml/png/V58zRi8m6DrzYYTsBi1G8T41ATr0LLVNZOX5yYLD31TWw5IfJ5r1R4WT-ZCHeGxEHNA2Ng6srL1N99risU_lU_PN-Jai5C_L8eaP5ohDCP4KNSkGM6QEfP0P9uNUk2uVeAAwNDCCzulwi2F4-jW3Bp0Efr5Aix-4qUJo2a6atpaCwr4uf3rah750_wBX3b0zLIiZJL5zUCcmr9lKyawUx0TeELPbW1kz5UxsrIxwmzmfIIYCE9PIxucv27tVPDg6ipwx3B5nwyWsiXCGvh_JdCS9P5sk4gYS-pW8_KOGPl_S4YTe1xQ7SFEwUWZLsfKrryV_GvbvzudVZaTq5Ri7EG_MuMM4DgOrOUMOxzO4FZLygxTf9tCOqftzRzy0003__mC0)
