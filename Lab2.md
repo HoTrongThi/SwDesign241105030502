@@ -50,19 +50,20 @@
 
 ### 4. Phân tích ca sử dụng Maintain Employee Information
 #### 4.1. Xác định các lớp phân tích
-- PayrollAdministrator: Đại diện cho quản trị viên bảng lương, người thực hiện các yêu cầu tạo báo cáo hành chính.
-- System: Hệ thống xử lý yêu cầu, xác minh đầu vào, và tạo báo cáo dựa trên tiêu chí từ quản trị viên.
-- AdministrativeReport: Đối tượng báo cáo chứa thông tin tổng hợp về giờ làm việc hoặc lương, có thể được lưu trữ hoặc hiển thị.
+- PayrollAdministrator: Đại diện cho người quản trị thực hiện các tác vụ quản lý thông tin nhân viên.
+- System: Xử lý các yêu cầu từ quản trị viên để thêm, cập nhật hoặc xóa thông tin nhân viên.
+- Employee: Đối tượng nhân viên với các thông tin như tên, loại hình làm việc, địa chỉ và các thông tin liên quan khác.
 #### 4.2. BIểu đồ tuần tự
 
-![Diagram](https://www.planttext.com/api/plantuml/png/Z99DQiD038NtFeMMCQGNyAB4KEZMD2TGF4eOcBzgvC2ShOiUgLVesECcTanBTqP-tzFJOxu-FWzHa6Mmfi9UF4E7YRqnhRBQwIYCun0ZT6qLib3tEg0JEAOeP5UZ1QAlz4R1iuna-QggheMdvnbiylHze2WW7dec509SyS05A_gHxDe6ElOs29npfl8_mrg8DS9EKg0zg6mLzq0s69-8mA6bNQphX_NPwAeLRLtcmTqC6Ds55eucPwmNkSfz3RoI8vw0Od72I0gykvbNSoUh5cHW1vSPLJziNemFfx_e60ocZVQFOYF-eyT9P7oVM_VkbvRMcktfn_kYQM-WNfzrZdXZ3kHKVcJV0000__y30000)
+![Diagram](https://www.planttext.com/api/plantuml/png/r5HBJiCm4Dtx5BC4gLmW2zIeOS4kQiK1h7WgBFd7UD8gPsF1aRW2Jc88AKdLBP6InVWzlu-jVBv_R2DBujOQ8Hls1BNio1jJAgkTZaoo7ye8TIb20kf61-aO3brajBFHamt6TuX2r2KyF6P80NjyQp4oi0ShjUFq0cOiQ7VqP2LhxyH8wAbrMK1DtWQ6j0m-80qGu2uWt9LARU0bACcuWGeDCjvVY1xIjE4BfX3IC2Jsv1NIiwhhy3mvLPYScpWmvbg9ST8Abw7Jvj-Q1Um8a_NvzcVDhol4tbMbOp2octEUAu4cOgxYnb2_sJTaoQYb67jaqdZ2vTDSpz2qH9Wkp2fjsL8xf5HNH2PhkP4_9pBKDTwO_rENTqUTOH06PmjETYCg9KtXhbMJq_-O86myAO5EYMtwz7-2Bm000F__0m00)
 
 #### 4.3. Nhiệm vụ từng lớp
-- PayrollAdministrator: Nhập tiêu chí báo cáo, xem báo cáo và yêu cầu lưu báo cáo vào hệ thống.
-- System: Xử lý yêu cầu tạo báo cáo, lấy thông tin tiêu chí từ quản trị viên, tạo đối tượng báo cáo dựa trên tiêu chí đã nhập, và lưu trữ báo cáo theo yêu cầu.
-- AdministrativeReport: Chứa nội dung của báo cáo hành chính, bao gồm các phương thức để tạo và lưu dữ liệu báo cáo.
+- PayrollAdministrator: Chọn loại thao tác (thêm, cập nhật, xóa), cung cấp thông tin nhân viên cần thiết, và xác nhận thao tác.
+- System: Xử lý các yêu cầu, lấy thông tin đầu vào, tạo, cập nhật hoặc xóa thông tin nhân viên trong hệ thống.
+- Employee: Lưu trữ thông tin của nhân viên, thực hiện các thay đổi hoặc xoá dữ liệu khi được yêu cầu.
 #### 4.4. Biểu đồ lớp phân tích
 
+![Diagram](https://www.planttext.com/api/plantuml/png/T99DJiGm38NtEKMM7OcvG1TeGCE27MBW0AQnHX7vavq8HOYJiU18N86KDgNjb2o_vyJFp_d-_3fm18h96j4PO9OFaCaRSwEiTfeZGVGatuNi3_Jm_jZAKoJjpWDqO759olqL0QNkR30-8pQx0QMW8EAQAZIue1zYz7NA7D5M9yLqJBniqYKYTF6PaThDCOQoGBv3vgc73rXKxLrzxKhYgFsDEZDIBrOhbyN_vVBcwVKfXyjigFXPGWO3b5jvzEd5u3YVjrOp5wUF9RcLHbXOep22DjDRktPoEmzze-pMbvs1co-XcU4o_EQ_sE-lws9QQS716LcCeDUch7vL7P8fxLaSqAd-n_q0003__mC0)
 
 ### 5. Phân tích ca sử dụng Maintain Purchase Order
 #### 5.1. Xác định các lớp phân tích
