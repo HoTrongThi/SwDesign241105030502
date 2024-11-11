@@ -67,11 +67,36 @@
 
 ### 5. Phân tích ca sử dụng Maintain Purchase Order
 #### 5.1. Xác định các lớp phân tích
+- CommissionedEmployee: Đại diện cho nhân viên nhận hoa hồng, người tạo, sửa hoặc xóa đơn hàng mua.
+- System: Xử lý các yêu cầu tạo, sửa hoặc xóa đơn hàng mua từ nhân viên.
+- PurchaseOrder: Đối tượng đơn hàng với các thông tin như khách hàng, sản phẩm, và giá trị đơn hàng.
 #### 5.2. BIểu đồ tuần tự
+
+![Diagram](https://www.planttext.com/api/plantuml/png/n9DDJeH048NtVOfQQZ9UO1Pc3B1m1Pc91-ZGDR6J_flkOWndS-6Hl8B5ZsDW47Kb2IHqtglwwb6ylxxj4ib8ZJL2rkGZPDvQdPBs3bLXW_4j8iW4MI422tMjWtG4XpOHsibHrSJwMIOieyBOMQfIYAo0k_jHlOKzdXfC1EJ1Iks8RmYZ3Npd4uEqCsN55gheRI0uCfWF62Kn5r0R46uUbDh0Kr2IS0Cv6YIydRKxy6bDCwSGqX2m-m8CFR40lhxjFgK4XSnkKk-PzcJFMQibtLVjgjn25f79mU7BF85hZbodO6GxXtZC1Hf-6qBuqpYN0ZyDC4gcx7kagF6CQwaiJr0tCIBlog3NZbbi_sbMG9f-FBMIvHZ0TT4-dc4t_YEUNwVYtL6Fp11wZ8NEsQ3YUZpFPsJJpkEeiuL2fyIE7zrF_W400F__0m00)
+
 #### 5.3. Nhiệm vụ từng lớp
+- CommissionedEmployee: Chọn loại thao tác (thêm, cập nhật, xóa), cung cấp thông tin đơn hàng cần thiết, và xác nhận thao tác.
+- System: Xử lý các yêu cầu thêm, sửa hoặc xóa đơn hàng mua.
+- PurchaseOrder: Lưu trữ thông tin của đơn hàng, thực hiện các thay đổi hoặc xoá dữ liệu khi được yêu cầu.
 #### 5.4. Biểu đồ lớp phân tích
+
+![Diagram](https://www.planttext.com/api/plantuml/png/R99DJiCm48NtEOMNgKGla0Mge2nOKL71VeX7nPB_D3DUL8YJiU18N06dIOeTaaMKlFSy-VpYdw_l7GkG96URtWApkW_E6MOJFEe75squ8wgFHWqNJk-F-quTXOm_ZRe7XxNINwSyWsHl7zARnT43hG-9-dTWV2ADr6v6FKMTiwkMHel_hSzcOZwUMT3Db7b3adZ1auZGomiZTQjR76EHGe_CzOT2H0B9wNdaZGg3yTT2WL8jdOaMyHc99RY1frGpWKwzrE9b_IlOj6XIZztc-pIIC3-t6WMClJQmwMggiksLx5q85i6NnRU5d7UwUaIsszlvFtJAWOSJSZC9WrSNSucOc6ncu6Q7NWydy1S00F__0m00)
+
 ### 6. Phân tích ca sử dụng Run Payroll
 #### 6.1. Xác định các lớp phân tích
+- SystemClock: Đồng hồ hệ thống kích hoạt quy trình chạy bảng lương vào đúng thời điểm.
+- System: Xử lý quy trình chạy bảng lương, bao gồm việc tính lương, trích xuất các thông tin thời gian làm việc và bán hàng.
+- Payroll: Đối tượng đại diện cho bảng lương của nhân viên.
+- Employee: Cung cấp thông tin về thời gian làm việc, tiền lương, và các khoản trừ lương (nếu có).
 #### 6.2. BIểu đồ tuần tự
+
+![Diagram](https://www.planttext.com/api/plantuml/png/R951JWCn34NtEOKlm0LcWIeg5YoGAk029Z6jLKyIsHxGd8q5H-8AP3gTqf6QJIBd_vVl-FVxPsEEwaCleRQT8rVC3g-ZEVLRAV48Q70wt12iIezzbJ8IhOex7BM8X32pxkxFpWxUbFTxKgYp0dJ8ORwRL0kiWnToPVea-2fwX4CPr01p0aCXWuIELxRpSnriKU8Ww7JXVnG5MYAYdABrr2A-Zv1OAJeagiNO0xJrptp0V5n2FsLsdgXh1xXYDepE9GSIesjuF53xl3NpadEdt5GjuwoYd6vryuojzQMHDe-g9P8PfR1fZcbuVm000F__0m00)
+
 #### 6.3. Nhiệm vụ từng lớp
+- SystemClock: Kích hoạt quy trình tính lương vào thời điểm quy định.
+- System: Xử lý các bước tính toán lương và thực hiện các thao tác chuyển khoản hoặc in phiếu lương.
+- Payroll: Đại diện bảng lương của nhân viên, bao gồm các phương thức để tính toán và lưu dữ liệu lương.
+- Employee: Cung cấp thông tin cần thiết cho quá trình tính lương.
 #### 6.4. Biểu đồ lớp phân tích
+
+![Diagram](https://www.planttext.com/api/plantuml/png/R58nJiGm4Epz2fUXk0-uG0SS1Tr9XqHjx2L4iRsvNRk842-Zu4by0IUnoGLmPStEpinw_VNnkUUeAIRlX76QMPv6Zk3l79fUlWavdTXvKFAW8ppcsuAz49mJ13CgUOhKXRPGgMjReACU2PrhhiIxsEXMoMmQ4szxAOMrRqO6GWFC6VKGOWD-S3X2pd9VRXVwfRKQ37ey0dLeb-0Bs1BEQXd3zEmA6Y3-mIpOP6A7WRUuqSuabmN_2wDgY8NhDVKtV5nc0Dla-YsY0ntMrBMtngwg3uVjsxnY8dv2wi5k0x5sy2jZ2t5Yvh7rv5baikNbQdUxwxeILRV6XJ4NwtkgTMOM5Pm8Fz6LJ0miRVRBtmAzs4EmquVw1W00__y30000)
