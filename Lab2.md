@@ -100,3 +100,4 @@
 #### 6.4. Biểu đồ lớp phân tích
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/R58nJiGm4Epz2fUXk0-uG0SS1Tr9XqHjx2L4iRsvNRk842-Zu4by0IUnoGLmPStEpinw_VNnkUUeAIRlX76QMPv6Zk3l79fUlWavdTXvKFAW8ppcsuAz49mJ13CgUOhKXRPGgMjReACU2PrhhiIxsEXMoMmQ4szxAOMrRqO6GWFC6VKGOWD-S3X2pd9VRXVwfRKQ37ey0dLeb-0Bs1BEQXd3zEmA6Y3-mIpOP6A7WRUuqSuabmN_2wDgY8NhDVKtV5nc0Dla-YsY0ntMrBMtngwg3uVjsxnY8dv2wi5k0x5sy2jZ2t5Yvh7rv5baikNbQdUxwxeILRV6XJ4NwtkgTMOM5Pm8Fz6LJ0miRVRBtmAzs4EmquVw1W00__y30000)
+
