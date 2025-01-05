@@ -1,4 +1,4 @@
-# Thiết kế hệ thống con Login
+# Lab5: Thiết kế hệ thống con Login
 ### 1.Distribute Subsystem Behavior to Subsystem Element
 Phân rã hành vi hệ thống con:
 User Interface Subsystem:
